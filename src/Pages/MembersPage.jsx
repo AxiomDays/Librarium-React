@@ -87,13 +87,13 @@ function MembersPage() {
 					</h1>
 					<input
 						type="text"
-						className="col-10 col-md-6"
+						className="col-12 col-md-6"
 						onChange={(e) => setmembers(e.target.value)}
 						value={members}
 					/>
 				</div>
 				<div className="members-table row">
-					<table className="p-3">
+					<table className="p-3 col">
 						<thead>
 							<tr>
 								<th className="col-1 text-align-center">ID</th>

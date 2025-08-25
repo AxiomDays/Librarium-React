@@ -85,13 +85,13 @@ function SearchPage() {
                     <h1 className="search-header col-12 d-flex text-align-center justify-content-center">SEARCH BAR</h1>
 					<input
 						type="text"
-						className="col-10 col-md-6"
+						className="col-12 col-md-6"
 						onChange={(e) => setSearch(e.target.value)}
 						value={search}
 					/>
 				</div>
 				<div className="search-table row">
-					<table className="p-3">
+					<table className="p-3 col">
 						<thead>
 							<tr>
 								<th className="col-1 text-align-center">ID</th>

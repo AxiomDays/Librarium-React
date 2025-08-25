@@ -11,7 +11,7 @@ function Header() {
 		<>
 			<nav className="main-nav">
 				<div className="container-fluid d-flex justify-content-center">
-					<div className="nav-row row col-10">
+					<div className="nav-row row col-12 col-md-10">
 						<div className="col-md-4 col">
 							<a href="/">
 								<div className="logo">
