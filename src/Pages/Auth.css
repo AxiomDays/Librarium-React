@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 150%), url(assets/trnava-university-BEEyeib-am8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 320%;
+    background-attachment: fixed;
+}
+
+
+.auth-row {
+    display: flex;
+    align-items: center;
+    height: auto;
+    color: white;
+    margin-top: 5%;
+}
+
+.sign-up {
+    background-color: #272525;
+    border-radius: 3.5mm;
+    padding: 2dvh;
+    height: auto;
+}
+
+.form-text {
+    color: white;
+}
+
+.form-title {
+    font-size: var(--subheader-font-size);
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.switch {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+}
+
+.svg-box {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 2.5vh;
+}
+
+.svg-box a circle {
+    r: 6;
+
+}
+
+.btn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.warning {
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.form-title {
+    font-family: Playfair;
+}
+
+.form-text {
+    font-family: Bebas;
+}
+
+.switch,
+label,
+.btn {
+    font-family: Bebas;
+    font-size: var(--body-font-size);
+}

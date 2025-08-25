@@ -1,0 +1,16 @@
+.book-row-title {
+    color: aliceblue;
+    font-size: 2.8dvh;
+    font-family: Playfair;
+}
+
+.review-text {
+    color: aliceblue;
+    font-size: var(--body-font-size);
+    font-family: Barlow;
+}
+
+.review-title {
+    color: aliceblue;
+    font-family: Barlow;
+}

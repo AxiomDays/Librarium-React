@@ -1,0 +1,35 @@
+.landing-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+}
+
+.landing-body-text {
+    background-color: #272525;
+    border-radius: 3.5mm;
+    padding: 2.5dvh;
+    font-family: Barlow;
+    font-size: var(--body-font-size);
+}
+
+.landing-text-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2dvh;
+    margin-top: 2vmin;
+}
+
+.landing-title {
+    font-size: 6vmin;
+    font-style: bold;
+    color: aliceblue;
+    text-align: center;
+    font-family: Playfair;
+}
+
+.landing-body {
+    color: aliceblue;
+    font-size: var(--subheader-font-size)
+}

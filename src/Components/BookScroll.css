@@ -1,0 +1,44 @@
+.line {
+    padding-top: 1dvh;
+    margin: 0;
+}
+
+.book-row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-row div img {
+    height: 100%;
+    width: 75%;
+    object-fit: cover;
+}
+
+.image-col {
+    object-fit: cover;
+    text-align: center;
+    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-col a{
+    text-decoration: none;
+}
+
+.icon-text {
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5rem;
+    font-size: 4vmin;
+    font-family: Playfair;
+}
+
+
+.book-row-title {
+    color: aliceblue;
+    font-size: var(--subheader-font-size);
+    font-family: Playfair;
+}

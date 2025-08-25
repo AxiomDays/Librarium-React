@@ -1,0 +1,22 @@
+.libra {
+    border: white 4px solid;
+    border-radius: 15px;
+    background-color: brown;
+    width: 100%;
+    margin: 1em 0;
+    text-align: center;
+    list-style: none;
+}
+
+.libra-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: var(--subheader-font-size);
+    font-family: Bebas;
+    letter-spacing: 0.2rem;
+}
+
+.libra-link:hover {
+    letter-spacing: 0.4rem;
+    transition: 0.2s;
+}

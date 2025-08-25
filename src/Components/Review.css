@@ -1,0 +1,34 @@
+.review-txt {
+    color: aliceblue;
+    font-size: var(--body-font-size);
+    margin-bottom: 1rem;
+    font-family: Barlow;
+}
+
+.review-title {
+    color: aliceblue;
+    font-size: var(--subheader-font-size);
+}
+
+.review-title p {
+    font-family: Barlow;
+}
+
+.class-username {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Bebas;
+}
+
+.class-username:hover {
+    color: brown;
+    transition: 0.5s;
+}
+
+.review-underline {
+    padding: 1rem;
+}
+
+.user-img-thumbnail {
+    max-width: 12dvh;
+}

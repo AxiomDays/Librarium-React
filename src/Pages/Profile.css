@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+
+.prof-landing-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+}
+
+.prof-landing-body-text {
+    background-color: #272525;
+    border-radius: 3.5mm;
+}
+
+.prof-landing-text-row {
+    display: flex;
+   
+    justify-content: center;
+    padding: 2dvh;
+    padding-bottom: 10vmax;
+    color: aliceblue;
+}
+
+.prof-landing-title {
+    font-size: 6dvh;
+    font-style: bold;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.prof-landing-body {
+    color: aliceblue;
+    font-size: 2.5dvh;
+}

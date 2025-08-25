@@ -1,0 +1,15 @@
+.black-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+}
+
+.black-box {
+    align-items: center;
+    justify-content: center;
+    background-color: #272525;
+    border-radius: 3.5mm;
+    padding: 2.5dvh;
+   
+}

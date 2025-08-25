@@ -1,0 +1,101 @@
+.main-nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
+    list-style-type: none;
+}
+
+.main-nav:hover {
+    background-color: rgba(7, 6, 6, 0.7);
+    transition: 0.2s;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
+
+.nav-row div a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 210%;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 0;
+}
+
+.navg-list {
+    list-style-type: none;
+    justify-content: space-between;
+    height: 3.5rem;
+
+}
+
+.navg-list .col li {
+    padding: auto;
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.navg-list .col li:hover {
+    letter-spacing: 0.1rem;
+    transition: 0.2s;
+}
+
+.navg-list .col {
+    padding: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navg-list a {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.drop-btn {
+    all: unset;
+    border: solid whitesmoke 1mm;
+    border-radius: 5px;
+    width: auto;
+    margin: 2dvw;
+    padding: 1dvw;
+}
+
+.drop-btn img {
+    padding: 0;
+    margin: 0;
+    color: brown;
+}
+
+
+.logo-text {
+    padding: 4rem 0;
+    height: auto;
+}
+
+.sign-in {
+    background-color: brown;
+    border-radius: 30px;
+    border: 1mm solid black;
+}
+
+.sign-in:hover {
+    background-color: rgb(252, 0, 0);
+    border-radius: 30px;
+    border: 1mm solid rgb(48, 40, 40);
+    transition: 0.6s;
+}
+
+.side-link {
+    font-size: var(--subheader-font-size);
+}
+

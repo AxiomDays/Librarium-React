@@ -1,0 +1,103 @@
+.libra {
+    border: white 4px solid;
+    border-radius: 15px;
+    background-color: brown;
+    width: 100%;
+    margin: 1em 0;
+    text-align: center;
+    list-style: none;
+}
+
+.libra-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: var(--subheader-font-size);
+    font-size: var(--subheader-font-size);
+    font-family: Bebas;
+    letter-spacing: 0.2rem;
+}
+
+.libra-link:hover {
+    letter-spacing: 0.4rem;
+    transition: 0.2s;
+}
+
+.form-subheading {
+    font-size: var(--subheader-font-size);
+    color: aliceblue;
+    text-align: start;
+}
+
+.star-list {
+    display: inline-block;
+    list-style: none;
+}
+
+.star-member {
+    color: #fff5f5;
+    float: inline-end;
+    padding: 0;
+
+}
+
+.star-member i {
+    padding: 0.5vmin;
+}
+
+.star-list li:hover,
+.star-list li:hover~li {
+    color: brown;
+}
+
+.stuck-star,
+.stuck-star~.star-member {
+    color: brown !important;
+}
+
+
+
+.modal-content {
+    color: aliceblue;
+    background-color: #272525;
+    border: 1mm solid brown;
+
+}
+
+.modal{
+    font-family: Bebas;
+}
+
+.modal div {
+    border-color: brown;
+}
+
+.modal-body div {
+    text-align: center;
+}
+
+.modal-body-header {
+    text-decoration: underline;
+    font-size: var(--tiny-font-size);
+    width: 100%;
+}
+
+.btn-submit {
+    background-color: brown;
+    border: 1mm groove brown;
+}
+
+.btn-submit:hover {
+    background-color: brown;
+    border: 1mm ridge brown;
+}
+
+
+.btn-clear {
+    background-color: transparent;
+    border: 1mm groove brown;
+}
+
+.btn-clear:hover {
+    background-color: transparent;
+    border: 1mm ridge brown;
+}

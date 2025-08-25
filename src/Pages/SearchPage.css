@@ -1,0 +1,59 @@
+.search-table {
+    background-color: #272525;
+    display: flex;
+    justify-content: center;
+    border: 1mm white solid;
+    border-radius: 15px;
+    color: aliceblue;
+
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.search-header {
+    color: brown;
+    text-shadow: 2px 2px #000000;
+    font-family: Playfair;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    box-shadow: #000000;
+    border: 1mm solid brown;
+    border-radius: 20px
+}
+
+th {
+    border-width: 0px 1px 0px 0px;
+    border-color: black;
+    padding: 0.2rem;
+    font-family: Bebas;
+    letter-spacing: 0.2rem;
+
+}
+
+td {
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 0.2rem;
+    font-family: Barlow;
+}
+
+.end-cell-body {
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: Barlow;
+}
+
+#end-cell-head {
+    border: 0px !important;
+}

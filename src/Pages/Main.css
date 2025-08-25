@@ -1,0 +1,34 @@
+.text-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BangerFrontText {
+    font-size: 8vmin;
+    line-height: 100%;
+    font-weight: bold;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8dvh;
+    font-family: Barlow;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sign-up-button {
+    background-color: #872218;
+    border: solid 2px white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0.8dvh;
+    margin-top: 10dvh;
+
+    color: aliceblue;
+}
